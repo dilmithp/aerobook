@@ -1,6 +1,5 @@
 <?php
 include_once 'header.php';
-session_start();
 if (!isset($_SESSION['adminID'])) {
   header("Location: ../admin-login.php");
   exit();

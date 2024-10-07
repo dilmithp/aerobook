@@ -1,0 +1,253 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Dashboard Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+button {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+/* Form Styles */
+form {
+  width: 300px;
+  margin: 20px auto;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #5cb85c;
+}
+
+button[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: auto;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Admin-Specific Styles */
+.admin-header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.admin-dashboard {
+  padding: 20px;
+}
+
+.admin-dashboard h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.header-container ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #666;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header-container ul li {
+  float: left;
+}
+
+.header-container ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-container ul li a:hover {
+  background-color: #111;
+}
+
+/* Add User Form Styles */
+.add-user-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-user-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-user-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-container label {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+}
+
+.add-user-container input,
+.add-user-container select {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.add-user-container input[type="text"],
+.add-user-container input[type="email"],
+.add-user-container input[type="password"],
+.add-user-container input[type="number"],
+.add-user-container select {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.add-user-container button {
+  background-color: #337ab7;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.add-user-container button:hover {
+  background-color: #4cae4c;
+}
+
+.add-user-container .error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.add-user-container a {
+  text-decoration: none;
+  color: #666;
+}
+
+.add-user-container a:hover {
+  color: #337ab7;
+}
+
+/* Responsive Form */
+@media (max-width: 600px) {
+  .add-user-container {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .add-user-container input,
+  .add-user-container select {
+    font-size: 14px;
+  }
+
+  .add-user-container button {
+    font-size: 16px;
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

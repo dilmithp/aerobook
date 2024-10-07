@@ -39,6 +39,7 @@ session_start();
       <li><a href="index.php"><img src="img/logo.png" alt="home" width="40px"></a></li>
       <li><a class="active" href="index.php">Home</a></li>
       <li><a href="Flight_results.php">Pricing</a></li>
+      <li><a href="seat_booking.php">Seat Book</a></li>
       <li><a href="flights.php">Flights</a></li>
       <li><a href="about.php">About</a></li>
       <li><a href="terms.php">Terms</a></li>

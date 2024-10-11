@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $origin = htmlspecialchars($_POST['origin']);
     $destination = htmlspecialchars($_POST['destination']);
     $price = htmlspecialchars($_POST['price']);
-
+//test
 
     $sql = "INSERT INTO managebook (fid, origin, destination, price) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);

@@ -1,7 +1,5 @@
 <?php include_once 'header.php'; ?>
 
-
-<!-- Hero Section for About Us Page -->
 <section class="about-hero-section">
     <div class="hero-overlay">
         <div class="hero-content">
